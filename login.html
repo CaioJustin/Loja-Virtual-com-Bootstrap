@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Quitanda Online ::titulo da pagina</title>
+    <title>Quitanda Online ::Login</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -13,9 +13,9 @@
 
 </head>
 
-<body class="d-flex flex-column min-vh-100" style="min-width:372px">
+<body style="min-width:372px">
 
-     <nav class="navbar navbar-expand-lg navbar-dark bg-danger  border-bottom shadow-sm mb-3">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-danger  border-bottom shadow-sm mb-3">
         <div class="container">
             <a class="navbar-brand"><Strong>Quitanda Online</Strong></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
@@ -57,25 +57,48 @@
 
 
     <main>
-        <div class="container">
-        <div class="card shadow-sm">
-            <div class="card-body">
-                    <h1>Quem Somos</h1>
-            <hr>
-                <p>Quitanda Online é uma loja virtual(e-commerce) Ficticia  criada como estudo de caso 
-                    para o curso "Desenvolvimento de uma loja virtual com Bootstrap 5 e disponibilizado gratuitamente
-                    plo prof. Ricardo  Maroquio em seu canal do Youtube."
-                </p>
+        <div class="container mb-3">
+            <div class="card">
+                <div class="card-body row justify-content-center">
+                    <form class="col-sm-10 col-md-8 col-lg-6">
+                        <h1 class="mb-3">Identifique-se, Por Favor</h1>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" autofocus   id="txtemail" placeholder=" " >
+                        <label for="txtemail">E-mail</label>
+                    </div>
 
-                <p>O código-fonte pode ser obtido via Github,conforme orientações apresentadas ao longo dos vídeos do curso no Youtube. Este 
-                    Estudo de caso pode ser  utilizado livremente como base para outras lojas virtuais ,sem ônus para o usuário.
-                </p>
-                <p>Bons estudos e boa programação!</p>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" autofocus   id="txtsenha" placeholder=" " >
+                        <label for="txtsenha">Senha</label>
+                    </div>
+
+                    <div class="form-check mb-3">
+                          <input type="checkbox" class="form-check-input" value="" id="checkLembrar">  
+                          <label for="checkLembrar" class="form-check-label" >Lembrar de Mim</label>
+                    </div>
+
+                    <button class="btn btn-lg btn-danger" type="button">Entrar</button>
+
+                    <p class="mt-3">
+                        Ainda não e cadastrado? <a href="cadastro.html">Clique aqui</a> para se  
+                        cadastrar.
+                    </p>
+
+                    <p class="mt-3">
+                        Esqueceu sua senha? <a href="recuperarsenha.html">Clique aqui</a> para recuperá-la.
+                    </p>
+
+                    </form>
+                </div>
             </div>
-        </div>
+        
+     
             </div>
     </main>
 
+    <div style="height: 273px;" class="d-block d-md-none"></div>
+    <div style="height: 153px;" class="d-block d-md-block d-lg-none"></div>
+    <div style="height: 129px;" class="d-block d-lg-none"></div>
 
 
     <footer class="border-top text-muted bg-light mt-auto">
