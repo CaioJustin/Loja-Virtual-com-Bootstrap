@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Quitanda Online ::Área do Cliente :: Favoritos</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="images.png" type="image/x-icon">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body style="min-width:372px">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger  border-bottom shadow-sm mb-3">
+        <div class="container">
+            <a class="navbar-brand"><Strong>Quitanda Online</Strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a href="#index.html" class="nav-link text-white">Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato.html" class="nav-link text-white">Contato</a>
+                    </li>
+
+                </ul>
+
+                <div class="align-self-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="cadastro.html" class="nav-link text-white">Logado como <b>Ricardo</b>  </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="login.html" class="nav-link text-white">Sair</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-cart3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="flex-fill  mb-4">
+        <div class="container">
+            <h1>Minha Conta</h1>
+            <div class="row gx-3">
+                <div class="col-4">
+                   <div class="list-group">
+                     <a href="cliente_Dados.html" class="list-group-item list-group-item-action ">
+                        <i class="bi-person fs-6">Dados Pessoais</i>
+                    </a>
+                    <a href="cliente_contatos.html" class="list-group-item list-group-item-action ">
+                        <i class="bi-mailbox fs-6">Contatos</i>
+                    </a>
+                    <a href="cliente_endereco.html" class="list-group-item list-group-item-action">
+                        <i class="bi-house-door fs-6">Endereço</i>
+                    </a>
+                    <a href="cliente_pedidos.html" class="list-group-item list-group-item-action">
+                        <i class="bi-truck fs-6">Pedidos</i>
+                    </a>
+                    <a href="cliente_favoritos.html" class="list-group-item list-group-item-action bg-danger text-light">
+                        <i class="bi-heart fs-6">Favoritos</i>
+                    </a>
+                    <a href="cliente_senha.html" class="list-group-item list-group-item-action">
+                        <i class="bi-lock fs-6">Alterar Senha</i>
+                    </a>
+                    <a href="index.html" class="list-group-item list-group-item-action ">
+                        <i class="bi-door-open fs-6">Sair</i>
+                    </a>
+                   </div>
+                </div>
+                <div class="col-8">
+                    <div class="row g-3">
+
+                         <div class="col-12 col-sm-6  col-lg-4 col-xl-3 d-flex align-items-stretch">
+                    <div class="card text-center bg-light">
+                        <a href="" class="position-absolute top-0 end-0 p-2 text-danger" title="Remover dos Favoritos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+</svg>
+                        </a>
+                         <img src="img/produtos/000012.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$4,50
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Banana Prata</h5>
+                            <p class="card-text truncate-3l">Banana Prata da melhor qualidade possivel,direto do produto rural para a sua mesa.</p>
+                        </div>
+                        <div class="card-footer">
+                            <form class="d-block"><button class="btn btn-danger" >Adicionar ao Carrinho</button></form>
+                            <small class="text-success">320,5kg em estoque</small>
+                        </div>
+                    </div>
+                        </div>
+                        
+                        <div class="col-12 col-sm-6  col-lg-4 col-xl-3 d-flex align-items-stretch">
+                    <div class="card text-center bg-light">
+                        <a href="" class="position-absolute top-0 end-0 p-2 text-danger" title="Remover dos Favoritos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+</svg>
+                        </a>
+                         <img src="img/produtos/000011.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$4,50
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Banana Prata</h5>
+                            <p class="card-text truncate-3l">Banana Prata da melhor qualidade possivel,direto do produto rural para a sua mesa.</p>
+                        </div>
+                        <div class="card-footer">
+                            <form class="d-block"><button class="btn btn-danger" >Adicionar ao Carrinho</button></form>
+                            <small class="text-success">320,5kg em estoque</small>
+                        </div>
+                    </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6  col-lg-4 col-xl-3 d-flex align-items-stretch">
+                    <div class="card text-center bg-light">
+                        <a href="" class="position-absolute top-0 end-0 p-2 text-danger" title="Remover dos Favoritos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+</svg>
+                        </a>
+                         <img src="img/produtos/000009.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$4,50
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Banana Prata</h5>
+                            <p class="card-text truncate-3l">Banana Prata da melhor qualidade possivel,direto do produto rural para a sua mesa.</p>
+                        </div>
+                        <div class="card-footer">
+                            <form class="d-block"><button class="btn btn-danger" >Adicionar ao Carrinho</button></form>
+                            <small class="text-success">320,5kg em estoque</small>
+                        </div>
+                    </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6  col-lg-4 col-xl-3 d-flex align-items-stretch">
+                    <div class="card text-center bg-light">
+                        <a href="" class="position-absolute top-0 end-0 p-2 text-danger" title="Remover dos Favoritos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+</svg>
+                        </a>
+                         <img src="img/produtos/000003.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$4,50
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Banana Prata</h5>
+                            <p class="card-text truncate-3l">Banana Prata da melhor qualidade possivel,direto do produto rural para a sua mesa.</p>
+                        </div>
+                        <div class="card-footer">
+                            <form class="d-block"><button class="btn btn-danger" >Adicionar ao Carrinho</button></form>
+                            <small class="text-success">320,5kg em estoque</small>
+                        </div>
+                    </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6  col-lg-4 col-xl-3 d-flex align-items-stretch">
+                    <div class="card text-center bg-light">
+                        <a href="" class="position-absolute top-0 end-0 p-2 text-danger" title="Remover dos Favoritos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+</svg>
+                        </a>
+                         <img src="img/produtos/000005.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$4,50
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Banana Prata</h5>
+                            <p class="card-text truncate-3l">Banana Prata da melhor qualidade possivel,direto do produto rural para a sua mesa.</p>
+                        </div>
+                        <div class="card-footer">
+                            <form class="d-block"><button class="btn btn-danger" >Adicionar ao Carrinho</button></form>
+                            <small class="text-success">320,5kg em estoque</small>
+                        </div>
+                    </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6  col-lg-4 col-xl-3 d-flex align-items-stretch">
+                    <div class="card text-center bg-light">
+                        <a href="" class="position-absolute top-0 end-0 p-2 text-danger" title="Remover dos Favoritos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+</svg>
+                        </a>
+                         <img src="img/produtos/000006.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$4,50
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Banana Prata</h5>
+                            <p class="card-text truncate-3l">Banana Prata da melhor qualidade possivel,direto do produto rural para a sua mesa.</p>
+                        </div>
+                        <div class="card-footer">
+                            <form class="d-block"><button class="btn btn-danger" >Adicionar ao Carrinho</button></form>
+                            <small class="text-success">320,5kg em estoque</small>
+                        </div>
+                    </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6  col-lg-4 col-xl-3 d-flex align-items-stretch">
+                    <div class="card text-center bg-light">
+                        <a href="" class="position-absolute top-0 end-0 p-2 text-danger" title="Remover dos Favoritos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+</svg>
+                        </a>
+                         <img src="img/produtos/000007.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$4,50
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Banana Prata</h5>
+                            <p class="card-text truncate-3l">Banana Prata da melhor qualidade possivel,direto do produto rural para a sua mesa.</p>
+                        </div>
+                        <div class="card-footer">
+                            <form class="d-block"><button class="btn btn-danger" >Adicionar ao Carrinho</button></form>
+                            <small class="text-success">320,5kg em estoque</small>
+                        </div>
+                    </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6  col-lg-4 col-xl-3 d-flex align-items-stretch">
+                    <div class="card text-center bg-light">
+                        <a href="" class="position-absolute top-0 end-0 p-2 text-danger" title="Remover dos Favoritos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+</svg>
+                        </a>
+                         <img src="img/produtos/000008.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$4,50
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Banana Prata</h5>
+                            <p class="card-text truncate-3l">Banana Prata da melhor qualidade possivel,direto do produto rural para a sua mesa.</p>
+                        </div>
+                        <div class="card-footer">
+                            <form class="d-block"><button class="btn btn-danger" >Adicionar ao Carrinho</button></form>
+                            <small class="text-success">320,5kg em estoque</small>
+                        </div>
+                    </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+    </main>
+
+
+
+
+    <div style="height: 273px;" class="d-block d-md-none"></div>
+    <div style="height: 153px;" class="d-block d-md-block d-lg-none"></div>
+    <div style="height: 129px;" class="d-block d-lg-none"></div>
+
+
+    <footer class="border-top text-muted bg-light mt-auto ">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-12 col-md-4 text-center text-md-left">
+                    &copy;2026 -Quitanda Online Ltda Me <br>
+                    Rua Virtual Inexistente ,171,Compulância/Pc <br>
+                    CNPJ 99.999.999/0001-99
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <a href="/privacidade.html" class="text-decoration-none text-dark">Política de Privacidade </a><br>
+                    <a href="/termos.html" class="text-decoration-none text-dark">Termos de Uso</a><br>
+                    <a href="/quemsomos.html" class="text-decoration-none text-dark">Quem Somos</a><br>
+                    <a href="/troca.html" class="text-decoration-none text-dark">Trocas e Devoluçoes </a>
+                </div>
+                <div class="col-12 col-md-4 text-center text-md-right">
+                    <a href="/contato.html" class="text-decoration-none text-dark">Contato pelo site</a><br>
+                    Email: <a href="mailto:mail.lai@gmail.com">mail.lai@gmail.com</a><br>
+                    Telefone: <a href="phone:24630005000">(24)63000-5000</a>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -24,10 +24,10 @@
             <div class="navbar-collapse collapse">
                 <ul class="navbar-nav flex-grow-1">
                     <li class="nav-item">
-                        <a href="#index.html" class="nav-link text-white">Principal</a>
+                        <a href="index.html" class="nav-link text-white">Principal</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contato.html" class="nav-link text-white">Contato</a>
+                        <a href="contato.html" class="nav-link text-white">Contato</a>
                     </li>
 
                 </ul>
@@ -86,18 +86,26 @@
                    </div>
                 </div>
                 <div class="col-8">
-                    <form >
-                        <div class="form-floating mb-3">
-                            <input type="text" id="textNome" class="form-control" autofocus placeholder=" ">
-                            <label for="textNome">Nome</label>
+                    <form>
+                        <div class="form-floating mb-3 col-md-6 col-lg-4">
+                            <input type="text" id="txtCep" class="form-control" autofocus placeholder=" ">
+                            <label for="txtCep">CEP</label>
                         </div>
-                         <div class="form-floating mb-3 col-md-6 col-xl-4">
-                            <input type="text" id="textCPF" class="form-control"  autofocus  placeholder=" ">
-                            <label for="textCPF">CPF</label>
+                         <div class="mb-3 col-md-6 col-xl-8">
+                            <textarea class="form-control text-muted  bg-light " style="height: 58px; font-size: 14px;" 
+                            disabled> o CEP para buscarmos o endereço.</textarea>
                         </div>
-                         <div class="form-floating mb-3 col-md-6 col-xl-4">
-                            <input type="date" id="textDATE" class="form-control"autofocus  placeholder=" ">
-                            <label for="textDATE">Date</label>
+                          <div class="form-floating mb-3 col-md-4">
+                            <input type="text" id="txtNumero" class="form-control" autofocus placeholder=" ">
+                            <label for="txtNumero">Numero</label>
+                        </div>
+                         <div class="form-floating mb-3 col-md-8 ">
+                            <input type="text" id="txtComplemento" class="form-control" autofocus placeholder=" ">
+                            <label for="txtComplemento">Complmento</label>
+                        </div>
+                         <div class="form-floating mb-3">
+                            <input type="text" id="txtReferencia" class="form-control" autofocus placeholder=" ">
+                            <label for="txtReferencia">Ponto de Referencia</label>
                         </div>
                     </form>
                 </div>  
